@@ -3,7 +3,7 @@ import IceCream from "./IceCream";
 
 function Icecreamlist() {
   return (
-    <div>
+    <div className="list-container">
       <IceCream />
     </div>
   );
