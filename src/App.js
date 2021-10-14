@@ -1,7 +1,13 @@
+import Footer from "./components/Footer";
+import Header from "./components/Header";
+import IceCreamList from "./components/Icecream/IceCreamList";
+
 function App() {
   return (
     <div className="container">
-      <h1>Ice cream Shop</h1>
+      <Header />
+      <IceCreamList />
+      <Footer />
     </div>
   );
 }
